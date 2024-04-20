@@ -1,0 +1,93 @@
+* { padding: 0;
+    margin: 0;
+}
+
+:root{
+    --background-page:  #f3e5d8; 
+    --font-title: 30px;
+    --color-tittle: #393736;
+    --background-preparation: #fbdff1;
+
+
+}
+
+body { 
+    background-color: var(--background-page);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+article { 
+    background-color: aliceblue;
+    width: 500px; 
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 20px ;
+    
+    
+    }
+    
+    img { 
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    h2 { 
+        margin: 20px 0px;
+        font-size:var(--font-title);
+        color: var(--color-tittle)
+    }
+
+    p{ 
+        margin-bottom: 20px;
+    font-size: 13px;
+    }
+
+     h3
+    { margin: 20px 0; color: #845545;
+    }
+
+    ul,ol { 
+        margin-left: 25px ;
+    }
+
+    li {
+        margin :8px 0;
+    }
+
+    li::marker { 
+        color: #845545;
+    }
+
+    hr { 
+        border-color: #84554510;
+        
+    }
+
+
+    .Preparation {
+        background-color: var(--background-preparation);
+        padding: 40px;
+        border-radius: 10%;
+        font-size: 15px;
+
+    } 
+    .Preparation h3 {
+    color: #804860;
+    }
+    .Preparation ul { 
+        margin-left: 20px;
+    }
+    .Preparation li {
+    margin: 5px 0;
+    }
+    
+    
+    .nutrition p { 
+        color: rgb(0, 0, 0);
+        border-bottom: 1px solid #845545;
+        
+        
+    }
+    
+
+
+    
